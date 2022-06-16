@@ -18,14 +18,22 @@ function App() {
         <Header />
 
         <div className="p-3">
+    
         <Switch>
+    
           <Route exact path="/">
+    
             <Home />
+    
           </Route>
           <Route path="/about">
+    
             <About />
+    
           </Route>
+    
           <Route path="/products/:id">
+    
             <Product />
           </Route>
         </Switch>
